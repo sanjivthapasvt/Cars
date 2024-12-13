@@ -31,6 +31,7 @@ body.dark-mode button {
   text-align: center;
 }
 .top button{
+  margin-top: -2px;
   padding: 12px 24px;
   font-size: 15px;
   margin-right: 10px;
@@ -39,7 +40,7 @@ body.dark-mode button {
   background-color: #2ecc71;
   border: none;
   color: white;
-  border-radius: 30px;
+  border-radius: 0px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
 
@@ -58,3 +59,21 @@ body.dark-mode button {
   text-align: left;
 }
 
+.Mode{
+  margin-top: -62px;
+}
+.Mode button{
+  border-radius: 0px;
+  border: none;
+  font-size: 25px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.Mode button:hover {
+  background-color: #27ae60;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
