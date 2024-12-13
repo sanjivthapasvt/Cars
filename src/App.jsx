@@ -6,17 +6,15 @@ import ImageSlider from "./pages/Slider.jsx";
 import NavBar from "./pages/NavBar.jsx";
 
 function App() {
-
   //Display main page
   return (
     <>
-      <NavBar/>
-      <ImageSlider/>
-      <br/>
-      <br/>
-      <br/>
-      <Car/>
-
+      <NavBar />
+      <ImageSlider />
+      <br />
+      <br />
+      <br />
+      <Car />
     </>
   );
 }
