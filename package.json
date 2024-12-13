@@ -1,5 +1,5 @@
 {
-  "homepage": "https://sanjivthapasvt.github.io/Mercedes/",
+  "homepage": "https://sanjivthapasvt.github.io/Cars/",
   "name": "car",
   "private": true,
   "version": "0.0.0",
@@ -13,8 +13,10 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "gh-pages": "^6.2.0",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.6",
     "react-dom": "^18.3.1",
     "react-intersection-observer": "^9.13.1",
     "react-slick": "^0.30.2",
