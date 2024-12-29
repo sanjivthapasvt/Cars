@@ -16,19 +16,19 @@ function App() {
       <App/>
       break;
 
-    case "/Cars/About":
+    case "/About":
       component = <About />;
       break;
 
-    case "/Cars/Design":
+    case "/Design":
       component = <Design />;
       break;
 
-    case "/Cars/Investors":
+    case "/Investors":
       component = <Investors />;
       break;
 
-    case "/Cars/Vehicles":
+    case "/Vehicles":
       component = <Vehicles />;
       break;
   }
